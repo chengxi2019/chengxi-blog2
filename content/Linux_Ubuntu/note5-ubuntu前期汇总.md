@@ -1,7 +1,9 @@
 ---
 title: note-ubuntu汇总
 date: 2026-10-18 13:53:46
-tags:
+tags: 
+    - Linux
+    - Ubuntu
 ---
 ### 打开目录
 ``` bash

@@ -2,6 +2,8 @@
 title: note-ubuntu汇总2
 date: 2026-10-18 20:40:46
 tags:
+    - Linux
+    - Ubuntu
 ---
 
 ### 查找命令(命令本体执行文件位置)
@@ -50,26 +52,26 @@ a	所有用户（all）
 >未指明默认为所有用户
 >你一般属于其他用户
 
-## 常用示例
-
-### 为所有用户增加所有权限：
+### 常用示例
+ 
 ``` bash
-
+为所有用户增加所有权限：
 chmod a+rwx filename
+
 为其他用户减少写、执行权限：
-
 chmod o-wx filename
-数字方式设置权限（755）：
 
+数字方式设置权限（755）：
 chmod 755 filename  
+
 755 表示：所有者拥有全部权限（rwx），组用户和其他用户拥有读与执行权限（r-x）
 ```
 >755是最常用的，记忆
 
 
 ### 更改文件所有者（权限）
-通常需要使用 sudo 配合
-chown 被给与权限用户 / :组名 文件名
+通常需要使用 sudo 配合  
+chown 被给与权限用户 / :组名 文件名  
 ``` bash
 chown ubuntu aa.c
 将文件aa.c归属于ubuntu
@@ -114,30 +116,3 @@ tar -xjvf 包名.bz2 解压缩文件
 ```
 
 >附注：后缀可以不写，已能够自动识别
-
-
-## 用户权限
-
-查看目前为何用户
-`whoami`
-
-查看用户信息
-`id username`
-
-返回uid= gid= groups=
-
-新建用户
-`sudo useradd username`
-
-更改用户密码
-`sudo passwd username`
-
-切换至用户
-`su username`
-
-用户配置文件位置：
-etc/passwd
-
-配置文件内容：
-chengxi07:x:1000:1000:Chengxi07:/home/chengxi07:/bin/bash
-用户名:密码占位符:uid:gid:备注:家目录位置:启动方式

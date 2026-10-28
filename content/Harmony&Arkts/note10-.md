@@ -1,9 +1,0 @@
----
-title: note-
-date: 2026-10-26 20:52:10
-tags: 
-    - Arkts 
-    - typescript
----
-
-有关于harmony与typescript的我还不知道怎么做笔记
