@@ -24,10 +24,12 @@ tag:
   本身是行内元素，但具有块元素可变高宽度等的属性
 
 ## 元素类型强制转变display属性：
-- block             转为块元素
-- inline            转为行内元素
-- inline-block      转为行内块元素
 
+``` html
+display: block;             转为块元素
+display: inline;            转为行内元素
+display: inline-block;      转为行内块元素
+```
 ## 综合示例：
 
 ``` html
