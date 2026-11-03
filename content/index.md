@@ -3,22 +3,39 @@ title: index
 date: 2026-10-26 20:35:58
 ---
 
-# WELCOME TO MY WIKI!!!
+# 👋 Welcome to My Digital Garden!
 
-[here](https://chengxi-blog.pages.dev) is my first blog  
-[here](https://github.com/chengxi2019/chengxi-blog2) is the wiki's repository
+> "Simplicity is prerequisite for reliability." — *Edsger W. Dijkstra*
 
-Thank you for the support provided by GitHub and CloudFlare  
+This wiki serves as my personal knowledge base, built with a focus on direct, intuitive, and low-level organization. It is a living repository of my technical notes, experiments, and learning progress.
+
+## LOG
+[[here|LOG]] is my blog's log
 
 
-2026年10月26日22:37:28  
+## 🛠️ Tech Stack & Architecture
 
-目前除MYSQL以外的均为最新进度，    
-mysql的“第6讲_约束和参照完整性_任务单卡”有待补充，不排除拒绝作业，   
-其他均在有序进行中  
-note10后的笔记改为日期编号  
+This site is completely free and open-source, powered by the following stack:
 
-2026年10月28日22:36:36
+- **Framework**: [Quartz 5](https://quartz.jzhao.xyz/) (Static Site Generator)
+- **Hosting**: [Cloudflare Pages](https://pages.cloudflare.com/) (Edge Network)
+- **Version Control**: [GitHub](https://github.com/)
+- **Writing Format**: Standard Markdown
 
-所有文件在补充时仅文件名称为当日日期，
-time属性仍为文件创建时的时间  
+## 💻 Source Code
+
+If you are curious about how this wiki is structured or want to peek under the hood, the entire source code is publicly available:
+
+```bash
+# Clone the repository
+git clone https://github.com/chengxi2019/chengxi-blog2.git
+
+# Install dependencies & build locally
+npm i
+npx quartz build --serve
+```
+
+# Navigation
+Use the Explorer on the left to navigate through my folders, or use Ctrl + K (or Cmd + K) to search for specific keywords. You can also check the Graph View on the right to see how different notes are connected.
+
+Special thanks to the open-source community, GitHub, and Cloudflare for providing the infrastructure that makes this project possible.
