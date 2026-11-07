@@ -34,12 +34,13 @@ transition-duration: 1s;
 
 - transition-timing-function: 
 
-设置动画速度，单位为时间（秒或毫秒）  
+设置动画速度，单位为时间（秒或毫秒）
+>现在已经使用ease值来代替具体时间，相关请查看示例    
 ``` html
 transition-timing-function: ease;         /*慢快慢*/
-transition-timing-function: ease-in;      /*慢-快*/
-transition-timing-function: ease-out;     /*快-慢*/
-transition-timing-function: ease-in-out;  /*慢快慢（首尾对称速度）*/
+transition-timing-function: ease-in;      /*慢-快(渐入)*/
+transition-timing-function: ease-out;     /*快-慢(渐出)*/
+transition-timing-function: ease-in-out;  /*慢快慢（首尾速度对称）*/
 ```
 
 - transition-delay

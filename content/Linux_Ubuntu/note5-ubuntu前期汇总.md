@@ -1,5 +1,5 @@
 ---
-title: note-ubuntu汇总
+title: note5-ubuntu前期汇总
 date: 2026-10-18 13:53:46
 tags: 
     - Linux

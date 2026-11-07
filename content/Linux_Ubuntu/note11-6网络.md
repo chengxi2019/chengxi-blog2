@@ -26,7 +26,7 @@ ip a del 192.168.75.129/24 dev ens33   /*删除*/
 输入`ip route`，查看网关  
 
 - 关闭与开启网卡  
-关闭网卡后左上角网络图标应该消失，网络设置也变得不可用  
+关闭网卡后右上角网络图标应消失，网络设置也应不可用  
 ``` bash
 sudo ip link set ens33 down /*关*/
 sudo ip link set ens33 up   /*开*/

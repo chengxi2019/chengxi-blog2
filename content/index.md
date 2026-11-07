@@ -10,7 +10,7 @@ date: 2026-10-26 20:35:58
 This wiki serves as my personal knowledge base, built with a focus on direct, intuitive, and low-level organization. It is a living repository of my technical notes, experiments, and learning progress.
 
 ## LOG
-[[here|LOG]] is my blog's log
+[[LOG|Here]] is my wiki's log
 
 
 ## 🛠️ Tech Stack & Architecture

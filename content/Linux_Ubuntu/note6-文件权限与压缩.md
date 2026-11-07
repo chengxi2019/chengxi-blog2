@@ -1,9 +1,10 @@
 ---
-title: note-ubuntu汇总2
+title: note6-文件权限与压缩
 date: 2026-10-18 20:40:46
 tags:
-    - Linux
-    - Ubuntu
+    - chmod
+    - chown
+    - tar
 ---
 
 ### 查找命令(命令本体执行文件位置)
