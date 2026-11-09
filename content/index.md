@@ -1,6 +1,6 @@
 ---
 title: index
-date: 2026-10-26 20:35:58
+created: 2026-10-26 20:35:58
 ---
 
 # 👋 Welcome to My Digital Garden!

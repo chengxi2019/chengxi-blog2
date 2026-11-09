@@ -1,6 +1,6 @@
 ---
 title: note3.MySQL1
-date: 2026-10-15 23:29:59
+created: 2026-10-15 23:29:59
 tags:
     - sql
     - createdatabase

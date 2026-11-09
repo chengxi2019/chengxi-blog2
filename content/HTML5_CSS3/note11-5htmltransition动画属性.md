@@ -1,6 +1,6 @@
 ---
 title: note11-5htmltransition动画属性
-time: 2026-11-05 23:25:36
+created: 2026-11-05 23:25:36
 tag: 
     - transition
     - duration

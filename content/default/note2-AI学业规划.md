@@ -1,6 +1,6 @@
 ---
 title: note2_test
-date: 2026-10-15 20:50:22
+created: 2026-10-15 20:50:22
 tags:
 ---
 

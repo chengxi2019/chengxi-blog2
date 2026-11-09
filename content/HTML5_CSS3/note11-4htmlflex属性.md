@@ -1,6 +1,6 @@
 ---
 title: note11-4htmlflex属性
-time: 2026-11-04 23:06:33
+created: 2026-11-04 23:06:33
 tag: 
     - flex
     - flex-direction

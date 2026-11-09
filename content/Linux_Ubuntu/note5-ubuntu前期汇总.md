@@ -1,10 +1,11 @@
 ---
 title: note5-ubuntu前期汇总
-date: 2026-10-18 13:53:46
+created: 2026-10-18 13:53:46
 tags: 
     - Linux
     - Ubuntu
 ---
+
 ### 打开目录
 ``` bash
 cd /

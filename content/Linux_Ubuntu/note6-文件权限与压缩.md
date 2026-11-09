@@ -1,6 +1,6 @@
 ---
 title: note6-文件权限与压缩
-date: 2026-10-18 20:40:46
+created: 2026-10-18 20:40:46
 tags:
     - chmod
     - chown

@@ -1,6 +1,6 @@
 ---
 title: note10-TS函数声明
-date: 2026-10-26 20:50:59
+created: 2026-10-26 20:50:59
 tags: 
     - Arkts 
     - typescript

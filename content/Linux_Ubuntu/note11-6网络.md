@@ -1,6 +1,6 @@
 ---
 title: note11-6网络
-time: 2026-11-06 17:02:52
+created: 2026-11-06 17:02:52
 tag: 
     - ip a
     - route

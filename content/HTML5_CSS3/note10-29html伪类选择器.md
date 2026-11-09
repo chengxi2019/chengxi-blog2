@@ -1,6 +1,6 @@
 ---
 title: note10-29html伪类选择器
-time: 2026-10-30 21:41:06
+created: 2026-10-30 21:41:06
 tag: 
     - first-child
     - last-child
