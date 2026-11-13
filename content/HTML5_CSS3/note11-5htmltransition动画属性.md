@@ -8,6 +8,7 @@ tag:
     
 ---
 
+>transition简写属性是重点，以后多用！！！  
 ## transition属性
 
 动画属性，设置了此属性的元素在发生变化（如hover属性）时会有变换的动画效果  
@@ -53,7 +54,7 @@ transition-timing-function: ease-in-out;  /*慢快慢（首尾速度对称）*/
 transition-delay: 1s;
 ```
 
-## transition简写属性  
+## transition简写属性(重点)  
 
 transition属性支持一次性写完  
 
