@@ -34,14 +34,11 @@ transform:translateX(50px)	/*X轴*/
 transform:translateY(50px)	/*Y轴*/
 transform:translateZ(50px)	/*Z轴*/
 ```
-要实现类似3d缩放的效果请使用：`translateZ`更改Z轴距离来实现类似的效果  
 
-### 简写格式：3D平移translate3D()
-作用：3D平移的简写格式  
+### 简写格式：3D平移translate3D()  
 格式：`transform:translate3d(30px,30px,30px)`  
 **注意：**  
-使用简写格式时，须一次写完3个轴的属性，无需求的轴可用0px代替   
-
+使用简写格式时，须一次写完3个轴的属性，无需求的轴可用0px代替  
 >有关Z轴(缩放)的问题见疑难解答  
 
 
@@ -72,8 +69,8 @@ transform:rotateZ(45deg);	/*Z轴*/
 ### 3D旋转rotate3D简写格式：
 格式：`transform:rotate3d(1,1,1,45deg)`  
 作用：前三个值定“绕哪根轴转”（比例定方向），最后的 deg 定“转多少度”  
-或者：前三个值按比例确定一根“虚拟轴”的方向，最后一个 deg 决定绕这根轴转多少度。例如 (1,2) 是在 x、y 轴之间偏向 y 轴的位置虚拟出一根轴，再绕它旋转 deg 角度。
->注意：rotate的属性值是缩放倍数，不是像素px！
+或者：前三个值按比例确定一根“虚拟轴”的方向，最后一个 deg 决定绕这根轴转多少度。例如 (1,2) 是在 x、y 轴之间偏向 y 轴的位置虚拟出一根轴，再绕它旋转 deg 角度  
+>注意：rotate的属性值是缩放倍数，不是像素px！  
 
 ### 变形基准点：tranform-origin  
 作用：设置平移，缩放，旋转的基准点
@@ -86,9 +83,8 @@ transfrom-origin: 20%;
 ```
 
 ### 附加：
->这部分考试会考？
-- 当元素背面朝向观察者时，隐藏该元素的背面（不可见）:
-	`backface-visibility: hidden;`
+- 当元素背面朝向观察者时，隐藏该元素的背面（不可见）:  
+	格式：`backface-visibility: hidden;`  
 
 ### 疑难解答
 - 当使用`transform:translateZ()`语句进行Z轴平移时，可能会出现元素相对于父元素中心朝自身方向偏移的情况，  

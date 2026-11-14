@@ -47,3 +47,13 @@ transform: skew(0deg,-30deg)
 p:nth-child(6){height: 50px;width: 50px; transform: skew(45deg); background-color: green;}
 p:nth-child(7){height: 50px;width: 50px; transform: skew(-45deg,60deg); background-color: green;}
 ```
+
+### 变形基准点：tranform-origin  
+作用：设置平移，缩放，旋转的基准点
+即围绕那个点转，以那个点为中心旋转  
+有待补充  
+格式：
+``` html
+transform-origin: left bottom;
+transfrom-origin: 20%;
+```
