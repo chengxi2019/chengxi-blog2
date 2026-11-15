@@ -1,10 +1,10 @@
 ---
 title: note11-12_3D变形
 created: 2026-11-12T10:45:23
-tag:
-	- perspective
-	- translate
-	- rotate
+tags:
+  - perspective
+  - translate
+  - rotate
 ---
 
 进入前，先明确一个点：  
