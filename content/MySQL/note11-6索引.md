@@ -18,7 +18,7 @@ tag:
 
 ### 删索引
 
-格式：`DELETE INDEX 索引名 ON 库名.表名`  
+格式：`DROP INDEX 索引名 ON 库名.表名`  
 
 ### EXPLAIN解释
 
